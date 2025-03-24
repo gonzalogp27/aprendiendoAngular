@@ -1,0 +1,25 @@
+<!--Directivas de angular - ifelse-->
+<body>
+    <section>
+        @if (logged) {
+            <p>Bienvenido {{username}}</p>
+            <img
+                (click)="greet()"
+                alt="imagen"
+                src="https://github.com/gonzalogp27.png">
+        } @else {
+            <p>Debes iniciar sesión para ver esta página</p>
+            <button (click)="logged = true">Login</button>
+        }
+    </section>
+</body>
+
+<!--Muestro el componente juegos-->
+    <!--Obtengo la propiedad username del componente Games-->
+    <!--Obtengo el favGame del componente del usuario-->
+<app-games (addFavoriteEvent)="getFavourite($event)" username="{{ username }}">
+</app-games>
+
+@if (favGame !== '') {
+    <p>Tu juego favorito es: {{ favGame }}</p>
+}

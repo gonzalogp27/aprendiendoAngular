@@ -1,0 +1,15 @@
+body{
+    background-color: #323435;
+    color: white
+}
+section{
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 32px;
+    font-size: 24px;
+}
+img{
+    height: 256px;
+    width: 256px;
+    border-radius: 50%;
+}
