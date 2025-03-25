@@ -1,0 +1,6 @@
+<h3>Datos de Usuario</h3>
+<ul>
+  <li *ngFor="let dato of datos | keyvalue">
+    <strong>{{ dato.key }}:</strong> {{ dato.value }}
+  </li>
+</ul>
