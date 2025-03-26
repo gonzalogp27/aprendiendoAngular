@@ -20,17 +20,17 @@ export class GamesComponent {
   games = [
     { 
       id: 1,
-      name: 'Resident Evil 4', 
+      name: 'Juego 1', 
       genre: 'Survival Horror' 
     },
     { 
       id: 2,
-      name: 'The Legend of Zelda Ocarina of Time', 
+      name: 'Juego 2', 
       genre: 'Action-Adventure' 
     },
     {
       id: 3,
-      name: 'Persona 3',
+      name: 'Juego 3',
       genre: 'RPG'
     }
   ]
