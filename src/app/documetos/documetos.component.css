@@ -1,0 +1,21 @@
+.container{
+    background-color: rgb(191, 189, 187);
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.container:hover{
+    background-color: rgb(160, 155, 150);
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.elements{
+    display: inline;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    text-align: center;
+}
+ol li {
+    list-style-type: none;
+}
